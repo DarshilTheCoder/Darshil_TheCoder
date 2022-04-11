@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshil Parikh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-bars " id="bar" ></i>
+        <div class="navbar">
+            <ul id="ul">
+                <i class="fa-solid fa-xmark " id="cross"  ></i>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-user"></i> ABOUT</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-phone"></i> CONTACT</a></li>
+                <li><a href="bolgs.html"><i class="fa-solid fa-book"></i> BLOGS</a></li>
+                <li><a href="projects.html"><i class="fa-solid fa-check"></i> PROJECTS</a></li>
+            </ul>
+        </div>
+        <div class="welmsg">
+            <p>Darshil_TheCoder <br> Welcomes <br>You All <br>in <br>Projects</p>
+            
+        </div>
+    </header>
+    
+</body>
+<script>
+    // if(max-innerWidth)
+    document.querySelector("#bar").style.display = "none"
+    document.querySelector("#bar").addEventListener("click",()=>{
+        document.querySelector(".navbar").style.display = "block"
+        document.querySelector("#bar").style.display = "none"
+    })
+    document.querySelector("#cross").addEventListener("click",()=>{
+        document.querySelector(".navbar").style.display = "none"
+        document.querySelector("#bar").style.display = "block"
+
+
+    })
+</script>
+<!-- <script src="index.js"></script> -->
+</html>
