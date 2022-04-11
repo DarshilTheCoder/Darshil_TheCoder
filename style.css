@@ -4,7 +4,7 @@
 }
 
 header {
-    background: url("img/background/web.jpg");
+    background: url("web.jpg");
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ header {
 
 @media(max-width : 1000px) {
     header {
-        background: url("img/background/web3.jpg");
+        background: url("web3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         /* width: 100vw; */
